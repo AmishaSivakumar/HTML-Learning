@@ -2,7 +2,7 @@ git init
 git add .
 git commit -m "firstproject"
 git branch -M master
->git remote add origin https://gitlab.com/ui-learning1/sample.git
+git remote add origin https://gitlab.com/ui-learning1/sample.git
 push -u origin master
 git add .
 git commit -m "second"
