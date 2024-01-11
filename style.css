@@ -1,0 +1,25 @@
+.para{
+    color: brown;
+}
+table,tr,th,td{
+    border-collapse: collapse;
+   
+  
+    border: 2px solid rgb(3, 3, 3);
+}
+table{
+    margin: 10%;
+    width: 50%;
+}
+
+
+.thead{
+    background-color: darkred;
+    color: white;
+}
+.id_101, .id_103{
+background-color: rgb(201, 63, 132);
+}
+.id_102, .id_104{
+    background-color: rgb(241, 140, 157);
+}
