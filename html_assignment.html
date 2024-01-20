@@ -19,6 +19,35 @@
             font-size: 25px;
             border-collapse: collapse;
         }
+
+        .registration {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .registration table {
+            border: none;
+            /* width: 400px; */
+            border-collapse: collapse;
+        }
+
+        .registration tr {
+            border: none;
+        }
+
+        .registration td {
+            border: none;
+            font-size: 20px;
+            padding: 15px;
+            text-align: left;
+        }
+
+        .registration td label {
+            font-size: 15px;
+        }
     </style>
 </head>
 
@@ -77,7 +106,7 @@
     <!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
 
 
-    <div style="display: flex; justify-content: center;">
+    <div style="display: flex; justify-content: center; flex-direction: column;">
         <!-- Q4 -->
         <h2 style="text-align: center;"><b>List of Indian CEOs</b></h2><br>
         <table>
@@ -151,23 +180,13 @@
                 <td>C lang</td>
                 <td>Python</td>
                 <td>Parctical</td>
-                <td colspan="2" rowspan="3" style="background-color: red;">OFF</td>
+                <td colspan="2" rowspan="2" style="background-color: red;">OFF</td>
                 <!-- <td>OFF</td> -->
             </tr>
             <tr>
                 <td rowspan="2">Work</td>
                 <td colspan="5" rowspan="2">Subject preparation and project work</td>
                 <!-- <td>Subject preparation and project work</td>
-            <td>Subject preparation and project work</td>
-            <td>Subject preparation and project work</td>
-            <td>Subject preparation and project work</td>
-            <td>OFF</td>
-            <td>OFF</td> -->
-            </tr>
-            <tr>
-                <!-- <td>Work</td>
-            <td>Subject preparation and project work</td>
-            <td>Subject preparation and project work</td>
             <td>Subject preparation and project work</td>
             <td>Subject preparation and project work</td>
             <td>Subject preparation and project work</td>
@@ -209,6 +228,130 @@
                 <td><a href="https://en.wikipedia.org/wiki/Plotter"> <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Hp_9862a.jpg/1024px-Hp_9862a.jpg"
                             alt="" width="100px" height="100px"></a></td>
+            </tr>
+        </table>
+    </div> <br>
+    <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <div style="background-color: yellow;">
+        <!-- Q6 -->
+        <center>
+            <h2><u>Short Term Courses</u></h2>
+        </center>
+        <ol type="A">
+            <li>Web Fullstack</li>
+            <ul style="list-style-type: circle;">
+                <li><a href="https://en.wikipedia.org/wiki/PHP">PHP</a></li>
+                <li>Python</li>
+                <li>MERN</li>
+            </ul>
+            <li>Mobile App Development</li>
+            <ul>
+                <li>Android</li>
+                <li><a href="https://en.wikipedia.org/wiki/Flutter">Flutter</a></li>
+                <li>React Native</li>
+            </ul>
+            <li>Others</li>
+            <ul>
+                <li>UI/UX</li>
+                <li><a href="https://en.wikipedia.org/wiki/Data_science">Data Science</a></li>
+            </ul>
+        </ol>
+    </div> <br>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <div>
+        <center>
+            <!-- Q7 -->
+            <table>
+                <tr>
+                    <td><a href="https://en.wikipedia.org/wiki/Tourism_in_Kerala"><img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGUy23atJNP0bpl_eKQx6x5IHl5MZ6o1a4xxQByJDpHsx5-s85B5VHBjIMz8lBRQdDjJ4&usqp=CAU"
+                                alt="" width="100px" height="100px"></a></td>
+                    <td><a href="https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Chennai"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Chennai_train_station.jpg/320px-Chennai_train_station.jpg"
+                                alt="" width="100px" height="100px"></a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Delhi"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/India_Gate_in_New_Delhi_03-2016.jpg/640px-India_Gate_in_New_Delhi_03-2016.jpg"
+                                alt="" width="100px" height="100px"></a></td>
+                    <td><a href="https://en.wikipedia.org/wiki/Taj_Mahal"><img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTant5bYLDfULdgkfJg4xO6jYO6n92Gu4ujKw&usqp=CAU"
+                                alt="" width="100px" height="100px"></a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Hyderabad"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Charminar-Pride_of_Hyderabad.jpg/800px-Charminar-Pride_of_Hyderabad.jpg"
+                                alt="" width="100px" height="100px"></a></td>
+                    <td><a href="https://en.wikipedia.org/wiki/Lakshadweep"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/7/72/A_beach_side_resort_at_Kadmat_Island%2C_Lakshadweep.jpg"
+                                alt="" width="100px" height="100px"></a></td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+    <div class="registration">
+        <!-- Q8 -->
+        <h2>Online Job Registarion Portal</h2>
+        <span>Register yourself to get new job updates</span> <br>
+        <table>
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text"><br><label for="">First Name</label></td>
+                <td><input type="text"><br><label for="">Second Name</label></td>
+            </tr>
+            <tr>
+                <td rowspan="4">Address:</td>
+                <td colspan="2"><input type="text" maxlength="25"><br><label for="">Street Address</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text"><br><label for="">Street Address Line 2</label></td>
+            </tr>
+            <tr>
+                <td><input type="text"><br><label for="">City</label></td>
+                <td><input type="text"><br><label for="">State</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" maxlength="6"><br><label for="">Pin Code</label></td>
+                <td><select name="" id="">
+                        <option value="">Please Select</option>
+                        <option value="">India</option>
+                    </select><br><label for="">Country</label></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="number"><br><label for="">Area Code</label></td>
+                <td><input type="number"><br><label for="">Phone Number</label></td>
+            </tr>
+            <tr>
+                <td>Mobile:</td>
+                <td colspan="2"><input type="text" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td>E-mail:</td>
+                <td colspan="2"><input type="email" placeholder="ex: myname@example.com"></td>
+            </tr>
+            <tr>
+                <td>Cover Letter:</td>
+                <td colspan="2"><textarea name="" id="" cols="50" rows="10"
+                        placeholder="Describe yourself in brief (max. 450 characters)"></textarea></td>
+            </tr>
+            <tr>
+                <td>Resume:</td>
+                <td colspan="2"><input type="file"></td>
+            </tr>
+            <tr>
+                <td>Declaration:</td>
+                <td colspan="2"><input type="checkbox"><label for="">The above information filled by me is true. I also accept all
+                        the terms and conditions.</label></td>
+            </tr>
+            <tr>
+                <td><button>Submit Form</button></td>
+                <td><button>Reset</button></td>
             </tr>
         </table>
     </div>
