@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    background-color: black;
+    color: white;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 199;
+}
+
+header div {
+    display: flex;
+    gap: 5px;
+}
+
+.search_bar {
+    display: flex;
+    gap: 0px;
+}
+
+.search_bar h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    color: gray;
+    height: 35px;
+    width: 45px;
+    border-radius: 5px 0px 0px 5px;
+    margin-right: -6px;
+}
+
+.search_bar input {
+    width: 1000px;
+    height: 35px;
+    box-shadow: none !important;
+    border: none;
+}
+
+.search_bar i {
+    width: 45px;
+    height: 35px;
+    color: black;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -6px;
+}
+
+.nav {
+    position: relative;
+    z-index: 198;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding: 15px;
+    background-color: darkslategrey;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.container-solid {
+    margin: auto;
+    width: 80% !important;
+}
+
+.carousel {
+    background-color: rgb(233, 198, 167);
+}
+
+.image-content {
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.t-shirts{
+    font-size: xx-large;
+}
+.delivery h6 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.watch {
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    display: flex;
+}
+
+.row span {
+    display: flex;
+    flex-direction: column;
+}
+
+.row span img {
+    width: 150px;
+    height: 100px;
+}
+
+.deal-overflow {
+    display: flex;
+    gap: 25px;
+    overflow-x: scroll;
+}
+
+.deal-overflow span {
+    background-color: rgb(168, 6, 6);
+    color: white;
+    padding: 5px;
+}
+
+.deal-overflow h6 {
+    color: rgb(168, 6, 6);
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+}
+
+footer span {
+    background-color: darkslateblue;
+    height: 40px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav {
+    background-color: rgb(60, 53, 104);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-nav ul {
+    padding-left: 0px;
+    gap: 20px;
+    padding: 50px;
+}
+
+.footer-nav ul li {
+    list-style: none;
+}
